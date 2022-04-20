@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Song+Myung&display=swap');
+
+* {
+  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Song Myung', serif;
+}
+
+body, h1, h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #282828;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+
+}
+.mainbox {
+  width: 610px;
+  padding: 30px;
+  margin: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.titlebox {
+  text-align: right;
+}
+
+.container {
+  margin: 0px;
+  float: left;
+  overflow: hidden;
+}
+
+.name-text {
+  font-size: 16px;
+  color: #7c7c7c;
+  font-weight: bold;
+}
+
+.aboutme-text {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.wrap {
+  overflow: hidden;
+}
+
+.title-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: left;
+}
+
+.year-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: right;
+}
+
+.description-text {
+  font-size: 9px;
+  font-weight: lighter;
+}
+.detailed-description-text {
+  font-size: 9px;
+  font-weight: lighter;
+  margin-left: 14px;
+}
+
+.social {
+  width: 16px;
+  height: 16px;
+}
+
+.social-wrap {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #919191;
+  padding: 20px;
+  font-size: 12px;
+}
